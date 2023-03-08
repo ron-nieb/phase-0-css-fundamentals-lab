@@ -3,3 +3,46 @@ body {
   height: 100%;
   margin: 0;
 }
+h1 {
+text-align: center;
+}
+img {
+  display: block;
+  margin: auto;
+}
+nav {
+  text-align: center;
+}
+nav a {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: aquamarine;
+}
+figcaption {
+  font-size: 14px;
+  text-align: center;
+}
+#featured-property {
+  width: 800px;
+  margin: 0 auto;
+  padding: 20px 0;
+  text-align: center;
+}
+
+#featured-property p {
+  width: 100%;
+}
+#details {
+  overflow: auto; /* add clearfix to contain floats */
+}
+
+#details div {
+  float: right;
+  text-align: center;
+  width: 25%; /* to create 4 equal columns */
+  background-color: darkred;
+}
+
+
+
+
